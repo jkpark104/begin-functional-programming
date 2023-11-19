@@ -3,4 +3,5 @@ export type Item = {
   name: string;
   price: number;
   outOfStock: boolean;
+  code: string;
 };

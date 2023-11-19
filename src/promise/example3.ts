@@ -1,4 +1,4 @@
-type Async<A> = (ret: (x: A) => void) => void;
+export type Async<A> = (ret: (x: A) => void) => void;
 
 const resolve = <A>(a: A): Async<A> => {
   return (ret) => {
